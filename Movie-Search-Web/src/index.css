@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#align{
+  margin-left: 190px;
+  margin-top: -45.5px;
+  margin-bottom: 50px;
+}
+
+.blackbox{
+   color: white;
+  background-color: black;
+  height: 60px;
+  width: 170px;
+  position: relative; 
+}
+
+#button1 {
+  color: white;
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 112.5%;
+}
+
+#button2 {
+  color: white;
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 112.5%;
+  left: 7.5%;
+}
+
+.input{
+  color: white;
+  text-align: center;
+  background-color: black;
+
+}
+
+.style{
+  background-color: lightblue;
+}
+
+#button3 {
+  height: 50px;
+  width: 50px;
+  
+}
+
+#button4 {
+  height: 50px;
+  width: -30px;
+}
+
+.input1 {
+ background-color: black;
+ height: 60px;
+}
+.hide
+{
+  font-display: none;
+}
+.cast-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.actor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.actor-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+ 
+}
+
+.actor-name {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.movie-poster {
+  width: 200px;
+  height: auto;
+}
+
+.movie-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.movie-release-date {
+  font-size: 24px;
+  color: #888;
+  margin-bottom: 10px;
+}
+ 
+.movie-tagline {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.movie-overview {
+  margin-bottom: 20px;
+}
+
+.cast-heading {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cast-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.actor {
+  width: 120px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.actor-name {
+  margin-top: 5px;
+}
+
+.Appname {
+ 
+    font-size: 42px;
+      font-weight: bold;
+      color: white;
+      margin-top: -20px;
+      position: fixed;
+      top: 20px;
+      left: -100px;
+      z-index: 1;
+}
+
+.HomePage{
+  position: relative;
+  height: 100vh;
+}
+
+.BackgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+.ButtonContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.flex-container > div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+  color: white;
+}
+
+.heading{
+  font-size: 50px;
+}
+
+.movieName{
+  font-family:'Times New Roman', Times, serif;
+  padding-left: 540px;
+}
+
+.custom-card {
+  width: 17rem;
+  height: 27rem;
+  overflow: auto;
+}
+
+.custom-card img {
+  max-height: 21rem;
+
+}
+
+.card-body button {
+  padding: 0.2rem 0.5rem;
+  background-color: #fca311;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.container{
+  padding-top: 130px;
+}
+
+.movie-container{
+  padding-left: 130px;
+}
+
+.search-container{
+  padding-left: 560px;
+}
+
+
+
+
